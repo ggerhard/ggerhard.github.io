@@ -96,13 +96,20 @@ body, a, a:visited {
 #links a {
   text-decoration: none;
   display: inline-block;
-  transition-duration: 0.5s;
-  transition-property: transform;
+  //transition-duration: 0.5s;
+  // transition-property: transform;
+  opacity: .5;
+ transition: opacity .5s ease-out;
+ -moz-transition: opacity .5s ease-out;
+ -webkit-transition: opacity .5s ease-out;
+ -o-transition: opacity .5s ease-out;
 }
 
 #links a:hover {
   // transform: rotate(360deg);
+opacity: 1;
 }
+
 
 .icon:hover + .text {
   visibility: visible;
