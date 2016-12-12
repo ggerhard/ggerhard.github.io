@@ -120,3 +120,31 @@ opacity: 1;
   visibility: hidden;
   display: block;
 }
+
+
+#impressum {
+  width: 60%;
+  height: 75%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: left;
+}
+
+#impressum h1 {
+  font-size: 6em;
+  margin-bottom: 15px;
+}
+
+#impressum h2 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+#impressum p {
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
